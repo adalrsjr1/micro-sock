@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  shop:
+    image: weaveworksdemos/micro-sock
+    container_name: front-end
+    command: back-end
+  back-end:
+    image: weaveworksdemos/micro-sock
+    container_name: back-end
+    command: -l
+
+
