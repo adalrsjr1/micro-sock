@@ -1,6 +1,6 @@
 .PHONY: all image clean publish
 
-IMAGE=weaveworksdemos/micro-sock
+IMAGE=adalrsjr1/micro-sock
 
 all: image
 
