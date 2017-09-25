@@ -9,7 +9,7 @@ before_install:
 - gvt restore
 install: true
 env:
-- GROUP=weaveworksdemos COMMIT=$TRAVIS_COMMIT TAG=$TRAVIS_TAG REPO=micro-sock;
+- GROUP=adalrsjr1 COMMIT=$TRAVIS_COMMIT TAG=$TRAVIS_TAG REPO=micro-sock;
 script:
 - set -e
 - "make image"
